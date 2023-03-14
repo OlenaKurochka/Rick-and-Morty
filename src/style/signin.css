@@ -1,0 +1,30 @@
+.login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.signin_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signin_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 5px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.fb{
+    color: blue;
+}

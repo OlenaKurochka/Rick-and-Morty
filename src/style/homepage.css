@@ -1,0 +1,25 @@
+.title_container_mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_mobile{
+    width: 312px;
+    margin-bottom: 32px;
+    margin-top: 92px;
+}
+
+
+.title_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 600px;
+    margin-bottom: 16px;
+    margin-top: 86px;
+}

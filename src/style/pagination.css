@@ -1,0 +1,45 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0px 210px 50px;
+}
+
+.pagination a{
+    padding: 5px;
+    width: 35px;
+    height: 17px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 4px rgb(25, 245, 102);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.pagination a:hover{
+    box-shadow: 0px 0px 15px 5px rgb(25, 245, 102);
+    cursor: pointer;
+    background-color: rgb(146, 243, 247);
+}
+
+.selected{
+    box-shadow: 0px 0px 15px 5px rgb(25, 245, 102);
+    background-color: rgb(42, 199, 204);
+}
+
+.up_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(42, 199, 204);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px 5px rgb(25, 245, 102);
+    color: black;
+    font-size: 20px;   
+}
