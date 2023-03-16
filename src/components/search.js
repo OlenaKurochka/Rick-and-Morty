@@ -3,8 +3,8 @@ import "../style/search.css"
 
 
 const Search = ({ setSearch, updatePageNumber }) => {
-
   const [searchValue, setSearchValue] = useState(JSON.parse(localStorage.getItem("searchValue")));
+
 
   const onChangeHandler = event => {
     updatePageNumber(1); 
