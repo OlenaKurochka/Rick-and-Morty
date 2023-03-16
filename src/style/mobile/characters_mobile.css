@@ -2,7 +2,6 @@
 .characters_container_mobile{
     margin: 0px 24px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
 }
@@ -19,8 +18,8 @@
 }
 
 .linkView_mobile{
-    width: 312px;
-    height: 308px;
+    width: 500px;
+    height: 408px;
     text-decoration: none;
     margin-bottom: 64px;
 }
@@ -37,7 +36,7 @@
 }
 
 .media_mobile{
-    height: 232px;
+    height: 332px;
     width: 100%;
 }
 
@@ -72,8 +71,8 @@
 
 .up_btn{
     position: fixed;
-    bottom: 40px;
-    right: 70px;
+    bottom: 90px;
+    right: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -85,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .up_btn:hover{

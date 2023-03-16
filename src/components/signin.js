@@ -43,13 +43,13 @@ export default function Signin(props){
                 <h1 className="login_title">Hi &#128578; You need to Sign in </h1>
                 <p>Choose one of the following options</p>
                 <div className="signin_buttons">
-                    <Link to={isTrue ? '/characters' : '/' } className="link">
+                    <Link to='/characters' className="link">
                         <button onClick={GoogleLogin} className="signin_btn">
                             <FcGoogle className="icon" />
                             Sign in with Google
                         </button>
                     </Link>
-                    <Link to={isTrue ? '/characters' : '/' } className="link">
+                    <Link to='/characters' className="link">
                         <button onClick={FacebookLogin} className="signin_btn">
                             <AiFillFacebook className="icon fb"  />
                             Sign in with Facebook

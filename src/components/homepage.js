@@ -34,7 +34,7 @@ const Home = () => {
     if (!user) return <Navigate replace to="/" />
     if (user) 
       return (
-        <div>
+        <div className="homepage">
           <Logout />  
 
           {isMobile && 

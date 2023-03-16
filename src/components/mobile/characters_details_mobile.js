@@ -9,23 +9,22 @@ export default function CharactersDetailsMobile(props){
     const navigate = useNavigate();
     const goBack = () => navigate(-1);
     const [char, setChar] = useState([]);
+    const [originName, setOriginName ]= useState([])
     useEffect(() => {
         fetch(`https://rickandmortyapi.com/api/character/${IDCharacters}`)
            .then((res) => res.json())
            .then((data) => {
             //  console.log(data);
-             setChar((data)); 
+            setOriginName(data.origin.name); 
+            setChar((data));
+             
            })
            .catch((err) => {
               console.log(err.message);
            });
      }, []);
      
-     
-    //  console.log(char.origin)
-    //  const origin = char.origin
-    //  console.log(origin.url)
-    //  console.log(origin.name)
+
     
     return(
         <section>
@@ -59,7 +58,7 @@ export default function CharactersDetailsMobile(props){
                             </div>
                             <div className="info_section_mobile">
                                 <h3 className="info_section_title_mobile">Origin</h3>
-                                <p className="info_section_text_mobile"></p>
+                                <p className="info_section_text_mobile">{originName}</p>
                             </div>
                             <div className="info_section_mobile">
                                 <h3 className="info_section_title_mobile">Type</h3>
